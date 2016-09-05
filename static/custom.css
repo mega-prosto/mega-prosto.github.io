@@ -9,17 +9,6 @@ a:hover {
   color: #6b77ff;
 }
 
-/* Custom default button */
-.btn-default,
-.btn-default:hover,
-.btn-default:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
-  border: 1px solid #fff;
-}
-
-
 /*
  * Base structure
  */
@@ -69,11 +58,6 @@ body {
 .cover {
   padding: 0 20px;
 }
-.cover .btn-lg {
-  padding: 10px 20px;
-  font-weight: bold;
-}
-
 
 /*
  * Affix and center
@@ -99,12 +83,14 @@ body {
 /*
  * Video sizing
  */
+
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
   padding-top: 25px;
   height: 0;
 }
+
 .videoWrapper iframe {
   position: absolute;
   top: 0;
@@ -113,9 +99,15 @@ body {
   height: 100%;
 }
 
+/*
+ * Contacts
+ */
+
 .contacts {
   padding-top: 1rem;
+  font-size: 2rem;
 }
+
 .contacts ul {
   list-style-type: none;
   padding: 0;
